@@ -160,6 +160,22 @@ backend/
 
 The `models`, `uploads`, and dataset folders are excluded from GitHub using `.gitignore`.
 
+## Pre-trained Models
+
+Trained model files are not included in this repository due to GitHub storage limitations.
+
+Download the trained models from:
+
+https://drive.google.com/file/d/1avRXB_77VxfTYfvxpeIP66Y8UfA5HVR5/view?usp=sharing
+
+After downloading, extract the archive and place the model folders under:
+
+```text
+backend/models/
+├── earthquake_model/
+├── satellite_model/
+└── tweet_model/
+
 ## Installation and Running the Project
 
 ### 1. Clone the Repository
