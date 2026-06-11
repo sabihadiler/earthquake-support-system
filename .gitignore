@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Backend ignored files
+backend/__pycache__/
+backend/services/__pycache__/
+backend/venv/
+backend/models/
+backend/uploads/
+
+# Frontend ignored files
+frontend/node_modules/
+frontend/dist/
+
+# Large/data/model files
+data/
+datasets/
+*.csv
+*.xlsx
+*.zip
+*.pt
+*.pth
+*.pkl
+*.h5
